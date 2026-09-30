@@ -32,7 +32,7 @@ export default function FAQ() {
   ];
 
   return (
-    <section id="faq" className="py-24 md:py-32 bg-slate-50 relative overflow-hidden">
+    <section id="faq" className="scroll-mt-20 py-24 md:py-32 bg-slate-50 relative overflow-hidden">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}

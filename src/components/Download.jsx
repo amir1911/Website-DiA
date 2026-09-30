@@ -8,7 +8,7 @@ export default function Download() {
   const isAvailable = config.downloadLinks.installer && config.downloadLinks.installer.length > 0;
 
   return (
-    <section id="download" className="py-24 md:py-32 bg-white relative overflow-hidden">
+    <section id="download" className="scroll-mt-20 py-24 md:py-32 bg-white relative overflow-hidden">
       {/* Background decorations consistent with light theme */}
       <div className="absolute top-0 left-0 -ml-20 -mt-20 w-96 h-96 rounded-full bg-blue-50 opacity-60 blur-3xl -z-10"></div>
       <div className="absolute bottom-0 right-0 -mr-20 -mb-20 w-96 h-96 rounded-full bg-indigo-50 opacity-60 blur-3xl -z-10"></div>

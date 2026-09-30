@@ -43,7 +43,7 @@ export default function Features() {
   };
 
   return (
-    <section id="fitur" className="py-24 md:py-32 bg-white relative overflow-hidden">
+    <section id="fitur" className="scroll-mt-20 py-24 md:py-32 bg-white relative overflow-hidden">
       {/* Background decorations */}
       <div className="absolute top-0 right-0 -mr-20 -mt-20 w-72 h-72 rounded-full bg-blue-50 opacity-50 blur-3xl"></div>
       

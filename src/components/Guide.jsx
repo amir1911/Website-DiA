@@ -29,7 +29,7 @@ export default function Guide() {
   ];
 
   return (
-    <section id="panduan" className="py-24 md:py-32 bg-slate-50 relative overflow-hidden">
+    <section id="panduan" className="scroll-mt-20 py-24 md:py-32 bg-slate-50 relative overflow-hidden">
       {/* Light modern background */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-gradient-to-b from-blue-100/50 to-transparent blur-3xl -z-10 rounded-full"></div>
 
